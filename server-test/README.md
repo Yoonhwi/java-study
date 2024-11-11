@@ -1,18 +1,11 @@
-## Getting Started
+# Simple HTTP Server in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+이 프로젝트는 `com.sun.net.httpserver.HttpServer`를 사용하여 간단한 HTTP 서버를 구축하는 예제입니다. 이 서버는 클라이언트 요청을 받아 응답을 반환하는 기본적인 HTTP 서버 구현을 보여줍니다.
 
-## Folder Structure
+## 프로젝트 개요
 
-The workspace contains two folders by default, where:
+이 프로젝트는 `HttpServer`를 사용하여 로컬에서 작동하는 간단한 HTTP 서버를 구축하는 방법을 설명합니다. 서버는 클라이언트의 요청을 처리하고, 지정된 URL에서 간단한 메시지를 응답합니다.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- 사용한 라이브러리: `com.sun.net.httpserver.HttpServer`
+- 포트 번호: `8000`
+- 기본 경로: `/test`
